@@ -16,10 +16,3 @@ head li{
 .artigos {
     display: flex;i
 }
-
-.imagem {
-    width: 30em;    
-    height: 30em;
-    padding: 2px;
-}
-
