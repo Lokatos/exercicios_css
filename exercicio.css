@@ -4,8 +4,28 @@
     padding: 0;
 }
 
+body > header {
+    background-color: #4B0082;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 head li{
     display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a{
+    color: #f5f6fa;
+    text-decoration: none;
 }
 
 .container {
@@ -14,5 +34,71 @@ head li{
 }
 
 .artigos {
-    display: flex;i
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigos article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.artigos article{
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2
+.artigos article{
+    margin-bottom: 8;
+}
+
+.artigos article h3{
+    margin-top: 8;
+    margin-bottom: 8;
+}
+.artigos article a{
+    background-color: blueviolet;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.artigos article a:hover{
+    text-decoration: underline;
+}
+.artigos article a
+.artigos article a{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.artigos article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#animes{
+    background-color: #E0FFFF		;
+}
+
+#animes .artigos article a{
+    background-color: #66CDAA	;
+}
+
+#series{
+    background-color: #DDA0DD		;
+}
+
+#series .artigos article a{
+    background-color: #DA70D6	;
 }
